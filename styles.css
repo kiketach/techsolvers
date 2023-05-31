@@ -1,0 +1,48 @@
+
+.container {
+  background-color: yellowgreen;
+  background-size: cover;
+}
+
+.road {
+  width: 400px;
+  height: 100vh;
+  background-color: black;
+  margin: auto;
+  position: relative;
+  border-left: 7px dashed white;
+  border-right: 7px dashed white;
+}
+
+.car {
+  width: 50px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  bottom: 120px;
+  background-image: url(/imgs/car1.jpeg);
+  background-size: cover;
+}
+
+.line {
+  width: 10px;
+  height: 100px;
+  position: absolute;
+  background-color: white;
+  margin-left: 195px;
+}
+
+.vehicle {
+  width: 50px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  bottom: 120px;
+  background-image: url(/imgs/car2.jpeg);
+  background-size: cover;
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+}

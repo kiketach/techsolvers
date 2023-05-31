@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Se introducen la hoja de estilos de bootstrap y de css llamada style y fav Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Rapidos y Furiosos 20 (La venganza)</title>
+  </head>
+  <body>
+    <header>
+      <!--Carrusel de Bienvenida-->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/techsolvers/img/carrobanner1.jpg" alt="Imagen 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="/techsolvers/img/carrobanner3.png" alt="Imagen 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="/techsolvers/img/carrerabanner3.png" alt="Imagen 3" />
+          </div>
+        </div>
+        <!-- Controles -->
+        <a
+          class="carousel-control-prev"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <!-- Incluir el script de JavaScript de Bootstrap -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </header>
+    <!-- Script para inicializar el carrusel -->
+    <script src="/techsolvers/script/script.js"></script>
+    <!--Aqui va el menu con sus dos opciones Inicio y Nuestro Equipo-->
+    <section id="Inicio">
+      <nav>
+        <ul>
+          <li>
+            <a href="#Inicio"><i class="fa-solid fa-gamepad"></i> Inicio</a>
+          </li>
+          <li>
+            <a href="#Footer"
+              ><i class="fa-solid fa-puzzle-piece"></i> Nuestro Equipo</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <hr>
+    <h1 class="container-fluid text-danger text-center">Rapidos y Furiosos 20 (La Venganza)</h1>
+    <!-- SECCION DEL JUEGO -->
+    <div class="container">
+      <div class="road"></div>
+    </div>
+    <div class="button">
+      <button id="startButton">Iniciar juego</button>
+      <button id="resetButton">Reiniciar Juego</button>
+    </div>
+    <hr>    
+    <!-- footer starts -->
+    <section id="Footer">
+      <footer class="bg-light text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-3">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Sobre Nosotros</h5>
+              <p>
+                ¡Bienvenido/a a nuestro equipo! Somos un grupo de entusiastas
+                desarrolladores apasionados por la creación de soluciones
+                innovadoras y la búsqueda de nuevas formas de resolver desafíos
+                tecnológicos. En nuestra trayectoria como desarrolladores
+                junior, hemos adquirido una amplia experiencia trabajando en
+                diversos proyectos y adquiriendo habilidades en diferentes áreas
+                de desarrollo de software.
+              </p>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <p>
+                El objetivo principal de este proyecto y nuestra participación
+                en la competencia "Hackathon" es demostrar nuestro talento y
+                capacidad para enfrentar desafíos en un entorno competitivo.
+                Estamos emocionados de compartir nuestro proyecto contigo y
+                esperamos que disfrutes explorando nuestras creaciones. Si
+                tienes alguna pregunta, sugerencia o simplemente quieres decir
+                hola, no dudes en ponerte en contacto con nosotros. ¡Gracias por
+                visitar nuestra página y por apoyar a los desarrolladores
+                junior!
+              </p>
+
+              <h6 class="text-uppercase">El equipo de Techsolvers</h6>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <label class="text-dark">Techsolvers</label>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- footer ends -->
+    </section>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
